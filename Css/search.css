@@ -1,0 +1,42 @@
+
+.conatiner h1{
+    text-align: center;
+    color: red;
+}
+
+.conatiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conatiner .recipe{
+    width: 300px;
+    height: 370px;
+    background-color: rgb(222, 217, 227);
+    margin: 10px 10px;
+}
+.conatiner .recipe img{
+    padding: 10px 10px;
+    width: 94%;
+    height: 68%;
+}
+.conatiner .recipe button{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 100px;
+    font-size: 13px;
+    color: gray;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.conatiner .recipe h2{
+    text-align: center;
+    color: red;
+}
+
+.conatiner .recipe p{
+    color: green;
+}
